@@ -4,7 +4,8 @@ Prints the fixed menu with a loop, then asks for a day of the week and uses
 conditionals to decide which item is the special.
 """
 
-# The fixed menu: each entry is (item name, price in dollars).
+# The fixed menu: each entry contains an item name and its price in dollars.
+# Prices are stored as floats so they can be displayed with two decimal places.
 MENU = [
     ("Tomato Soup", 3.50),
     ("Grilled Cheese Sandwich", 4.25),
