@@ -61,7 +61,7 @@ def find_special(day):
 
 
 def discounted_price(price, discount):
-    """Return the price after the discount, rounded to whole cents."""
+    """Return the discounted price rounded to two decimal places.""" 
     return round(price * (1.0 - discount), 2)
 
 
